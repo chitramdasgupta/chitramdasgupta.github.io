@@ -1,0 +1,58 @@
+---
+import Navigation from "../components/Navigation.astro";
+
+const allPosts = Object.values(
+  import.meta.glob("./posts/*.md", { eager: true })
+);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Chitram Dasgupta</title>
+
+    <style>
+      .container {
+        max-width: 900px;
+        margin-inline: auto;
+        padding-inline: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <div class="container">
+      <section>
+        <h1>Chitram Dasgupta</h1>
+        <p>
+          I am a Software Engineer residing in Kolkata, India. I took up my job
+          because I was fascinated by computers from a young age. Outside of
+          software engineering, I like to read books (a lot of them!).
+        </p>
+      </section>
+      <section>
+        <h2>Recent posts</h2>
+        <ul>
+          {
+            allPosts
+              .sort(
+                (a: any, b: any) =>
+                  new Date(b.frontmatter.date).getTime() -
+                  new Date(a.frontmatter.date).getTime()
+              )
+              .slice(0, 3)
+              .map((post: any) => (
+                <li>
+                  {" "}
+                  <a href={post.url}>{post.frontmatter.title}</a>
+                </li>
+              ))
+          }
+        </ul>
+        <a href="/posts/">See all posts</a>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+---
+import Navigation from "../components/Navigation.astro";
+
+const allPosts = Object.values(
+  import.meta.glob("./posts/*.md", { eager: true })
+);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Chitram Dasgupta</title>
+
+    <style>
+      .container {
+        max-width: 900px;
+        margin-inline: auto;
+        padding-inline: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <div class="container">
+      <section>
+        <h1>All posts</h1>
+        <ul>
+          {
+            allPosts
+              .sort(
+                (a: any, b: any) =>
+                  new Date(b.frontmatter.date).getTime() -
+                  new Date(a.frontmatter.date).getTime()
+              )
+              .map((post: any) => (
+                <li>
+                  {" "}
+                  <a href={post.url}>{post.frontmatter.title}</a>
+                </li>
+              ))
+          }
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
