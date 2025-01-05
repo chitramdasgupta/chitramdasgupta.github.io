@@ -12,6 +12,7 @@ const { frontmatter } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <title>{frontmatter.title} | Chitram Dasgupta</title>
+    <meta name="description" content={frontmatter.description} />
 
     <style>
       .post-header {

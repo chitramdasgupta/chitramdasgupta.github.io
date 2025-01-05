@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: "The Subtle Toll of Social Media"
+description: "An essay on the subtle psychological effects of social media"
 date: "2025-01-05"
 ---
 
