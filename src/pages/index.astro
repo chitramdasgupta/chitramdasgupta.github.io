@@ -1,4 +1,5 @@
 ---
+import "../global.css";
 import Navigation from "../components/Navigation.astro";
 
 const allPosts = Object.values(
@@ -12,60 +13,6 @@ const allPosts = Object.values(
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <title>Chitram Dasgupta</title>
-
-    <style>
-      * {
-        margin-inline: 0;
-      }
-      .container {
-        max-width: 1000px;
-        margin-inline: auto;
-        padding-inline: 5vw;
-      }
-
-      body {
-        font-size: 18px;
-        line-height: 27px;
-
-        background-color: #f8f9fa;
-        color: #212529;
-
-        p {
-          margin-bottom: 40.5px;
-        }
-
-        h1,
-        h2,
-        h3 {
-          margin-bottom: 27px;
-        }
-
-        h1 {
-          font-size: 45px;
-          line-height: 1.2;
-        }
-
-        h2 {
-          font-size: 36px;
-          line-height: 1.2;
-        }
-
-        h3 {
-          font-size: 28px;
-          line-height: 1.3;
-        }
-
-        h4 {
-          font-size: 22px;
-          line-height: 1.4;
-        }
-      }
-
-      a {
-        color: #2970db;
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
     <Navigation />
