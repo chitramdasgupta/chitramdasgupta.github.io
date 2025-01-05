@@ -4,8 +4,6 @@ title: "Thoughts on Kafka’s The Trial"
 date: "2021-09-01"
 ---
 
-# Thoughts on Kafka’s The Trial
-
 The trial is a story of a man who is arrested without any specifying reason and has to manoeuvre the complex labyrinth of the judicial process in order to be acquitted. The main theme of the trial is how a complex social system with no practical returns slowly devolves and adversely effects not only the directly and indirectly associated people but also the very society it supposedly serves.
 
 # Unnecessary bureacracy in a social system

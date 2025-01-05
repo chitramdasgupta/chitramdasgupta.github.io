@@ -1,5 +1,8 @@
 ---
 import Navigation from "../components/Navigation.astro";
+
+// Get the frontmatter properties from the post
+const { frontmatter } = Astro.props;
 ---
 
 <html lang="en">
@@ -7,7 +10,7 @@ import Navigation from "../components/Navigation.astro";
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <title>Chitram Dasgupta</title>
+    <title>{frontmatter.title} | Chitram Dasgupta</title>
 
     <style>
       .container {
@@ -15,11 +18,38 @@ import Navigation from "../components/Navigation.astro";
         margin-inline: auto;
         padding-inline: 0.5rem;
       }
+
+      .post-header {
+        margin-bottom: 2rem;
+      }
+
+      .post-title {
+        font-size: 2.25rem;
+        font-weight: bold;
+        margin-bottom: 0.25rem;
+      }
+
+      .post-date {
+        color: #666;
+        font-size: 0.9rem;
+      }
     </style>
   </head>
   <body>
     <Navigation />
     <div class="container">
+      <header class="post-header">
+        <h1 class="post-title">{frontmatter.title}</h1>
+        <time class="post-date"
+          >{
+            new Date(frontmatter.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })
+          }</time
+        >
+      </header>
       <slot />
     </div>
   </body>
