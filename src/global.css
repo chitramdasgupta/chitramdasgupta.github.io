@@ -60,3 +60,7 @@ a {
   color: #2970db;
   text-decoration: none;
 }
+
+blockquote {
+  font-style: italic;
+}

@@ -4,13 +4,13 @@ title: "A look at Golding’s Lord of the Flies"
 date: "2021-06-20"
 ---
 
-# Introduction
+## Introduction
 
 Lord of the flies is the story of a group of young boys stranded on an island after an aerial accident. They find that the island they are on is uninhabited and full of wild fruits and pigs. They start off with a chief and a system of assembly where they could congregate and talk. However, as the story progresses, this unity breaks down and the boys go from civilized and educated to uncivilized and driven by their worst instincts. The story has many themes, the main one being that negativity is not external but present inside us.
 
 > “Fancy thinking the Beast was something you could hunt and kill! You knew, didn’t you? I’m part of you? Close, close, close! I’m the reason why it’s no go? Why things are what they are?”
 
-# Tussle between rationality and irrationality
+## Tussle between rationality and irrationality
 
 Ralph, the elected chief of the boys, stresses on the smoke signal at the mountain being lit all the time. Even though all of them agree at the beginning, Jack and the choir take grow a strong passion to kill wild pigs that are found roaming in the island that they take the fire for hunting instead. This results in them losing an opportunity of survival as a ship which could have potentially saved them passes by without noticing the presence of the boys. This causes a rift between Ralph and Jack which would grow farther apart through the course of the story. This incident reflects how Jack and the boys preferred a short term goal to the ultimate goal of wanting to be rescued from the island. Even though Ralph is angry with them, he takes part in the feast.
 
@@ -20,13 +20,13 @@ Moreover, the rumors of a beastie, a large snake start circulating among the boy
 
 While building the shelters, it becomes clear as daylight that the boys have lost their sense of rationality as they veer of playing and bathing in the waters, instead of building a home for themselves. Jack, on the other hand, is succumbed to the passion of killing and bloodlust as he focuses all his time and energy on hunting down pigs instead.
 
-# “We did everything adults would do. What went wrong?”
+## “We did everything adults would do. What went wrong?”
 
 All this could have been attributed to their childish minds not being able to grasp the dire gravity of the situation, but at that thought is laid to rest at the last scene. As the boys are overcome by bloodlust, they set fire to the forests which attracts the attention of a ship passing nearby. A naval officer comes to the island and sees the utter loss of their innocence and is surprised how educated, civilized young English boys have fallen down to savagery and bloodlust. This observation goes away immediately as he turns back and sees the men holding machine guns and the naval ship. No matter what , unsupervised young children or conforming adults of civilized societies, all men are victims of the beast that is within them. This thought is further re-affirmed by the imagery that the boys were rescued by the adults only when they had fell down to savagery and were hunting down a fellow human being by lighting up a large patch of forest on fire.
 
-# Fragility of moral values
+## Fragility of moral values
 
-“What are we? Humans? Or animals? Or savages?”
+> “What are we? Humans? Or animals? Or savages?”
 
 As the story progresses, more and more boys succumb to immorality and wash out their cultural and moral values. Even Ralph, the seemingly logical among the boys and Piggy, the sensible one, murder Simon in a tribal dance with the rest of the boys.
 
@@ -36,7 +36,7 @@ Piggy, who remains sensible and thoughtful throughout the story, is killed at th
 
 The story shows how easy it is to get rid of all cultural and moral norms in the absence of a society.
 
-# Ending note
+## Ending note
 
 Lord of the flies presents a very pessimistic view of humanity and shows that there is evil lingering in the hearts of everyone and that evil dictates how societies ultimately function. Although Ralph and Piggy continued holding on their plan of rescue and their values, they too were tainted by taking part in the wild ritualistic dance that killed Simon, who was bringing the truth about the beast. Golding shows the superficiality of our written moral and cultural codes, as they are nullified by the evil in the hearts of all men. He shows that men will inevitably, descend into savagery and kill others if they think they can. Moreover, the handful of voices of reason are always overpowered by the clamor of irrationality.
 
