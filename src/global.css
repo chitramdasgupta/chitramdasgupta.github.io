@@ -1,7 +1,7 @@
 @font-face {
   font-family: "atkinson-hyperlegible";
-  src: url("/atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.otf")
-    format("opentype");
+  src: url("/atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.woff2") format("woff2"),
+       url("/atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
