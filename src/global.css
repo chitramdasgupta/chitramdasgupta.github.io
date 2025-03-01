@@ -34,6 +34,11 @@ body {
     margin-bottom: 40.5px;
   }
 
+  p:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 20.25px;
+  }
+
   h1,
   h2,
   h3 {
