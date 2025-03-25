@@ -15,12 +15,19 @@ const allPosts = Object.values(
     <meta name="description" content="All posts made by Chitram Dasgupta" />
     <title>Chitram Dasgupta</title>
   </head>
+  <style>
+    h1 {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+  </style>
   <body>
     <Navigation />
     <div class="container">
       <section>
         <h1>All posts</h1>
-        <ul>
+        <ul style="margin-top: 0;">
           {
             allPosts
               .sort(

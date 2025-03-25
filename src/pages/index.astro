@@ -14,30 +14,43 @@ const allPosts = Object.values(
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Personal website of Chitram Dasgupta" />
     <title>Chitram Dasgupta</title>
+    <style>
+      h2 {
+        margin-bottom: 0.5rem;
+        font-size: 18px;
+        color: #666;
+      }
+
+      ul {
+        margin-top: 0;
+      }
+    </style>
   </head>
   <body>
     <Navigation />
     <div class="container">
       <section>
-        <h1>Chitram Dasgupta</h1>
+        <h1 style="display: none;">Chitram Dasgupta</h1>
         <p>
-          I am a Software Engineer residing in Kolkata, India. I took up my job
-          because I was fascinated by computers from a young age. Outside of
-          software engineering, I like to read books (a lot of them!).
+          Hello, I'm a Software Engineer based in Kolkata, India. My deep
+          fascination with computers from a young age naturally led me into the
+          world of technology. When I'm not busy solving problems in code,
+          you'll likely find me immersed in a good book—I'm a passionate reader
+          with an insatiable appetite for learning!
         </p>
       </section>
       <section>
-        <h2>Socials</h2>
-        <ul>
-          <li><a href="https://github.com/chitramdasgupta/">GitHub</a></li>
-          <li>
-            <a href="https://www.linkedin.com/in/chitram-dasgupta/">LinkedIn</a>
-          </li>
-        </ul>
+        <h2 style="display: none;">Socials</h2>
+        <p style="margin-bottom: 0; margin-top: 0;">
+          <a href="https://github.com/chitramdasgupta/">GitHub</a>
+        </p>
+        <p style="margin-top: 0;">
+          <a href="https://www.linkedin.com/in/chitram-dasgupta/">LinkedIn</a>
+        </p>
       </section>
       <section>
         <h2>Recent posts</h2>
-        <ul>
+        <ul style="margin-bottom: 0.75rem;">
           {
             allPosts
               .sort(
@@ -54,7 +67,7 @@ const allPosts = Object.values(
               ))
           }
         </ul>
-        <a href="/posts/">See all posts</a>
+        <a href="/posts/">See all</a>
       </section>
     </div>
   </body>
