@@ -80,7 +80,3 @@ ul {
 li::marker {
   color: #999;
 }
-
-a {
-  text-decoration: underline;
-}
