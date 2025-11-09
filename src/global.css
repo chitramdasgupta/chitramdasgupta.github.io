@@ -1,15 +1,27 @@
 @font-face {
-  font-family: "atkinson-hyperlegible";
+  /* font-family: "atkinson-hyperlegible";
   src: url("/atkinson-hyperlegible/AtkinsonHyperlegibleNext-VariableFont_wght.woff2") format("woff2"),
-       url("/atkinson-hyperlegible/AtkinsonHyperlegibleNext-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+       url("/atkinson-hyperlegible/AtkinsonHyperlegibleNext-VariableFont_wght.ttf") format("truetype"); */
+  font-family: "Averia Serif";
+  src: url("/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf") format("truetype");
+  /* font-weight: normal; */
+  /* font-style: normal; */
+  /* font-display: swap; */
+}
+
+:root {
+  --paper: #F5ECD7;
+  --ink: #2E2A24;
 }
 
 * {
   margin-inline: 0;
-  font-family: "atkinson-hyperlegible";
+  font-family: "Averia Serif";
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .container {
@@ -22,8 +34,8 @@ body {
   font-size: 18px;
   line-height: 27px;
 
-  background-color: #f8f9fa;
-  color: #212529;
+  /* background-color: #f8f9fa;
+  color: #212529; */
 
   margin-top: 0;
   margin-bottom: 0;
@@ -39,7 +51,8 @@ body {
     padding-bottom: 20.25px;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     margin-bottom: 18px;
   }
 
