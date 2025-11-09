@@ -1,12 +1,6 @@
 @font-face {
-  /* font-family: "atkinson-hyperlegible";
-  src: url("/atkinson-hyperlegible/AtkinsonHyperlegibleNext-VariableFont_wght.woff2") format("woff2"),
-       url("/atkinson-hyperlegible/AtkinsonHyperlegibleNext-VariableFont_wght.ttf") format("truetype"); */
   font-family: "Averia Serif";
   src: url("/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf") format("truetype");
-  /* font-weight: normal; */
-  /* font-style: normal; */
-  /* font-display: swap; */
 }
 
 :root {
@@ -33,9 +27,6 @@ html {
 body {
   font-size: 18px;
   line-height: 27px;
-
-  /* background-color: #f8f9fa;
-  color: #212529; */
 
   margin-top: 0;
   margin-bottom: 0;
