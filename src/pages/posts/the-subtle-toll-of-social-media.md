@@ -21,7 +21,7 @@ It turns out most of our perception-building mechanisms, like observing those ar
 
 ## Is It All Doom and Gloom, Then?
 
-No, not really. Human beings have a remarkable tendency to come out stronger from predicaments than we ourselves would expect; resilience is not the exception but the norm for us. Social media is Pandora’s box; we have opened it, now there is no going back. I do not have answers to how to deal with social media, but I believe I have a few ideas—ideas which I would experiment with myself:
+No, not really. Human beings have a remarkable tendency to come out stronger from predicaments than we ourselves would expect; resilience is the norm for us. Social media is Pandora’s box; we have opened it, now there is no going back. I do not have answers to how to deal with social media, but I believe I have a few ideas—ideas which I would experiment with myself:
 
 1. Try to be mindful of how you are using your phone. It is fine to take out your phone to click a picture of your loved one doing something funny, but you should start mentally accounting for what you are actually doing with your time. Just as budgeting your finances opens the door to thinking more fruitfully about your relationship with money, the same strategy will work here.
 
