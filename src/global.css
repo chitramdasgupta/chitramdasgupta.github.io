@@ -12,8 +12,8 @@
 
 :root {
   --paper: #F5EEDB;
-  --ink: #39342D;
-  --dark-ink: #332E29;
+  --ink: #36312B;
+  --dark-ink: #302B27;
   --gold: #5A2F26;
   --gold-hover: #733A30;
 }
@@ -32,12 +32,11 @@ html {
 
 .container {
   max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 5vw;
+  padding-inline: 1.25vw;
 }
 
 body {
-  font-size: 18px;
+  font-size: 18.25px;
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -95,8 +94,8 @@ blockquote {
   color: #3a342e;
 }
 
-ul {
-  padding-left: 1.2rem;
+ul, ol {
+  padding-left: 1.25rem;
 }
 
 li::marker {
