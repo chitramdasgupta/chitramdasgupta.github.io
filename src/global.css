@@ -32,7 +32,7 @@ html {
 
 .container {
   max-width: 1200px;
-  padding-inline: 1.75vw;
+  padding-inline: 2vw;
 }
 
 body {
@@ -95,7 +95,7 @@ blockquote {
 }
 
 ul, ol {
-  padding-left: 1.75rem;
+  padding-left: 2rem;
 }
 
 li::marker {
